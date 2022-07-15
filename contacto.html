@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Mi Blog</h1>
+      </header>
+
+      <nav class="nav">
+          <ul>
+            <li><a href="/index.html">principal</a></li>
+            <li><a href="/ayuda.html">ayuda</a></li>
+            <li><a class="active" href="/contacto.html">Contacto</a></li>
+            <li><a href="/galeria.html">galeria</a></li>
+          </ul>
+        </nav>
+
+        <div class="formulario">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Formulario de Contacto</legend>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="apellido1">Apellido Paterno:</label>
+                        <input type="text" name="ApPaterno" id="ApPaterno">    
+                    </div>
+
+                    <div class="form-group">
+                        <label for="apellido2">Apellido Materno:</label>
+                        <input type="text" name="ApMaterno" id="ApMaterno">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rfc">RFC:</label>
+                        <input type="text" name="rfc" id="rfc">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cpostal">Codigo Postal:</label>
+                        <input type="number" name="cpostal" id="cpostal">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="estado">Estado:</label>
+                        <select name="estado" id="estado" required>
+                            <option value="Brazil" >Brazil</option>
+                            <option value="Chile" >Chile</option>
+                            <option value="Argentina" >Argentina</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="deleomuni">Delegacion / Municipio:</label>
+                        <select name="deleomuni" id="deleomuni" required>
+                            <option value="SS de Jujuy">SS de Jujuy</option>
+                            <option value="Alto Comedero">Alto Comedero</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="colonia">Colonia:</label>
+                        <select name="colonia" id="colonia" required>
+                            <option value="Colon">Colon</option>
+                            <option value="Esperanza">Esperanza</option>
+                            <option value="San Jose">San Jose</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo">Sexo:</label>
+                        <div class="radinputs">
+                            <input type="radio" name="sexo" value="hombre" > Hombre
+                            <input type="radio" name="sexo" value="mujer"> Mujer
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fechanac">Fecha de nacimiento:</label>
+                        <input type="date" name="fechanac" id="fechanac" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electronico:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados 2010-2011</p>
+    </footer>
+</body>
+</html>
